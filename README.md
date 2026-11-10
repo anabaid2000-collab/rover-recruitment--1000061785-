@@ -2,29 +2,50 @@
 
 **Student ID:** 1000061785
 
-This repository contains the submission materials for the AI & Autonomous recruitment tasks.
+This repository contains my submission materials for the BRACU Mongol-Tori Rover Autonomy Recruitment — AI & Autonomous tasks.
 
-## Repository structure
+## Repository Structure
 
-```
+```text
 .
 ├── README.md
-├── task1/Task-1.PDF
-├── task2/light.py
-├── task3/Task-3.PDF
-└── task4/Task-4.PDF
+├── task1/
+│   └── Task-1.PDF
+├── task2/
+│   └── light.py
+├── task3/
+│   └── Task-3.PDF
+└── task4/
+    └── Task-4.PDF
 ```
 
-## Task 2 — Status light telemetry
+## Task 1
+Handwritten solution submitted as `task1/Task-1.PDF`.
 
-Run from the repository root:
+## Task 2 — Status Light Telemetry
+
+The Python script processes rover mission telemetry and target coordinates to determine the status light for each valid telemetry entry.
+
+### How to Run
+
+Run the following command from the repository root:
 
 ```bash
 python task2/light.py mission_log.csv targets.csv
 ```
 
-The script reads mission telemetry and target coordinates, then prints a time/light status for each valid telemetry row.
+**Input files:**
+- `mission_log.csv` — Mission telemetry data.
+- `targets.csv` — Target coordinate data.
 
-## Submission note
+Make sure the required CSV files are available in the appropriate location before running the script.
 
-The handwritten PDFs are listed in the structure above, but have not yet been uploaded. Add each PDF to its corresponding task folder before submitting.
+## Task 3
+Handwritten solution submitted as `task3/Task-3.PDF`.
+
+## Task 4
+Handwritten solution submitted as `task4/Task-4.PDF`.
+
+## Submission Note
+
+All handwritten task PDFs and the Task 2 Python script are included in their corresponding folders.
