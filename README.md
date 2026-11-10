@@ -1,6 +1,5 @@
 # BRACU Mongol-Tori Rover Autonomy Recruitment
 
-**Student ID:** 1000061785
 
 This repository contains my submission materials for the BRACU Mongol-Tori Rover Autonomy Recruitment — AI & Autonomous tasks.
 
